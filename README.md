@@ -52,11 +52,20 @@ Other requirements may including ___normalizing___ data sets,
 which generally means scaling the data to values between 0 and 1
 (this enables certain types of numerical analysis).
 
+There are several techniques used in data normalization and standardization, and three commonly applied methods include:
+Min-Max Normalization: This technique rescales the data to a fixed range, usually between 0 and 1.
+This method is useful when features have different scales but no significant outliers.
+
+Z-score Standardization (Standard Scaling): This method transforms data to have a mean of 0 and a standard deviation of 1.
+Robust Scaling: This method uses the median and interquartile range (IQR) to scale data, making it more robust to outliers
+
 The end result may sometimes be referred to as ___tidy data___,
 however it is important to remember that data cleaning is not
 always a one-time task. The further use of any given dataset
 may well highlight details that need further cleaning.
 
+
+       
 ## Exploration
 
 Lets start with our first dataset.
